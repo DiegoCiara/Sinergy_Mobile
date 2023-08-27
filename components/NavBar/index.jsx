@@ -1,6 +1,14 @@
-import { Text, TextInput, View } from "react-native";
-import { Actions, Header, HeaderContainer, IconContent, ImageProfile, InitialPublication, InputPublication, LogoContainer, LogoFont, NavContainer } from "./styles";
-import { AntDesign } from '@expo/vector-icons';
+import { 
+    Actions, 
+    Header,
+    HeaderContainer,
+    IconContent,
+    ImageProfile,
+    InitialPublication,
+    InputPublication,
+    LogoContainer,
+    LogoFont,
+    } from "./styles";
 import { FontAwesome } from '@expo/vector-icons';
 
 
@@ -14,21 +22,22 @@ export function NavBar(){
                 </LogoContainer>
                 <Actions>
                     <IconContent>
-                        <FontAwesome name="plus" size={20}/>
+                        <FontAwesome name="plus" size={20} color='#6e6e6e'/>
                     </IconContent>
                     <IconContent>
-                        <FontAwesome name="search" size={20}/>
+                        <FontAwesome name="search" size={20} color='#6e6e6e'/>
                     </IconContent>
                     <IconContent>
-                        <FontAwesome name="bell" size={20} color="black" />
+                        <FontAwesome name="bell" size={20} color='#6e6e6e'/>
                     </IconContent>
                 </Actions>                
             </HeaderContainer>
             <InitialPublication>
                 <ImageProfile source={require('./assets/profile.png')}/>
                 <InputPublication
-                    placeholder="Vamos compartilhar algo hoje..."/>
-            </InitialPublication>
+                    placeholder="Vamos compartilhar algo novo hoje..."
+                    placeholderTextColor="black"/>
+                </InitialPublication>
 
         </Header>
     )

@@ -41,7 +41,7 @@ export const IconContent = styled.View`
     align-items: center;
     justify-content:center;
     border-radius: 50%;
-    color: #6e6e6e;
+    color: #6e6e6e !important;
     background-color: #d9d9d9;
 `;
 
