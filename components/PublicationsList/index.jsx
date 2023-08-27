@@ -2,7 +2,7 @@ import { FlatList, ScrollView, Text } from "react-native";
 import { ListPublication } from "./style";
 import { Publication } from "../Publications/style";
 import { Publications } from "../Publications";
-import { NavBar } from "../NavBar";
+import { Header } from "../Header";
 
 
 export function PublicationsList(){
@@ -48,7 +48,7 @@ export function PublicationsList(){
             <ListPublication 
             scrollEnabled
             >
-            <NavBar/>
+            <Header/>
             {Posts.map((post, index) => (
                 <Publications
                     key={index}

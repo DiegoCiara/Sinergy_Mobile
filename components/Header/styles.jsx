@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const Header = styled.View`
+export const Head = styled.View`
     height: 150px;
     padding-top: 20px ;
     padding-bottom: 10px;

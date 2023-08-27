@@ -1,6 +1,6 @@
 import { 
     Actions, 
-    Header,
+    Head,
     HeaderContainer,
     IconContent,
     ImageProfile,
@@ -13,9 +13,9 @@ import { FontAwesome } from '@expo/vector-icons';
 
 
 
-export function NavBar(){
+export function Header(){
     return(
-        <Header>
+        <Head>
             <HeaderContainer>
                 <LogoContainer>
                     <LogoFont>Sinergy</LogoFont>
@@ -39,6 +39,6 @@ export function NavBar(){
                     placeholderTextColor="black"/>
                 </InitialPublication>
 
-        </Header>
+        </Head>
     )
 }

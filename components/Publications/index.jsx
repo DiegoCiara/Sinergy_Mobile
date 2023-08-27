@@ -1,5 +1,5 @@
 import { View } from "react-native";
-import { ImageProfile } from "../NavBar/styles";
+import { ImageProfile } from "../Header/styles";
 import { Action, ActionsPublication, EmojiAction, HeaderPublication, LegendPublication, ProfileContent, PublicImage, Publication, TimeAgo, UserName } from "./style";
 import { Feather } from '@expo/vector-icons';
 
